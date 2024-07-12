@@ -1,0 +1,39 @@
+Paso 1: Preparar el Entorno
+Instala Python:
+Asegúrate de que Python esté instalado en el otro PC. Puedes descargarlo desde python.org e instalarlo. Durante la instalación, asegúrate de marcar la opción "Agregar Python a la variable de entorno PATH".
+
+Instala Django:
+Abre una terminal (en Windows, puedes usar PowerShell o el CMD) y ejecuta el siguiente comando para instalar Django:
+
+|pip install django
+
+Esto instalará Django y todas las dependencias necesarias.
+
+Paso 2: Clonar o Transferir el Proyecto
+Clonar desde Repositorio:
+
+|git clone <https://github.com/ArielSvi/InnovateNow.git>
+
+
+Paso 3: Configurar el Entorno Virtual
+Crea un Entorno Virtual :
+En la terminal, navega hasta el directorio de tu proyecto y crea un entorno virtual para aislar las dependencias del proyecto:
+
+|cd ruta/al/proyecto
+|python -m venv venv
+
+Activa el Entorno Virtual:
+
+|venv\Scripts\activate
+
+Paso 4: Configurar y Ejecutar el Proyecto
+Configura la Base de Datos:
+
+Ejecuta el Servidor de Desarrollo:
+Finalmente, ejecuta el servidor de desarrollo de Django para verificar que todo funcione correctamente:
+
+python manage.py runserver
+
+PASO 4:
+Accede al Proyecto:
+Abre un navegador web y navega a la dirección proporcionada por Django
